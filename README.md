@@ -65,7 +65,7 @@ streamlit run app.py
 ```
 
 ## Learning tips
-- Read each file top-to-bottom before running it — comments explain every line
+- Read each file top-to-bottom before running it 
 - Break something intentionally and fix it — best way to understand OCR preprocessing
 - Try uploading a German receipt first — the multilingual support will impress you
 
