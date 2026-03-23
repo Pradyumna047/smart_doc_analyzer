@@ -1,0 +1,9 @@
+venv/*
+*/__pycache__/
+*.pyc
+*.pyd
+*.dll
+.env
+*.egg-info/
+.streamlit/
+sample_docs/

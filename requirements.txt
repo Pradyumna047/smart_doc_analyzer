@@ -1,0 +1,29 @@
+# ── Computer Vision & OCR ──────────────────────────────────────────────────
+opencv-python>=4.8.0          # Image processing (read, resize, filter)
+Pillow>=10.0.0                 # PIL - simpler image operations
+easyocr>=1.7.0                 # Multilingual OCR (English + German built-in)
+
+# ── NLP ────────────────────────────────────────────────────────────────────
+spacy>=3.7.0                   # NER, POS tagging, tokenization
+# After install, run:
+#   python -m spacy download en_core_web_sm
+#   python -m spacy download de_core_news_sm
+
+transformers>=4.35.0           # Hugging Face models (summarization, etc.)
+sentence-transformers>=2.2.0   # Sentence embeddings for semantic search
+torch>=2.0.0                   # PyTorch backend (required by transformers)
+
+# ── LLM & RAG ──────────────────────────────────────────────────────────────
+langchain>=0.1.0               # RAG pipeline orchestration
+langchain-community>=0.0.10    # Community integrations (FAISS, etc.)
+anthropic>=0.18.0              # Anthropic Claude API
+openai>=1.0.0                  # OpenAI API (alternative to Anthropic)
+faiss-cpu>=1.7.4               # Vector similarity search (no GPU needed)
+
+# ── UI & Deployment ────────────────────────────────────────────────────────
+streamlit>=1.30.0              # Web UI framework
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0           # Load .env files for API keys
+numpy>=1.24.0                  # Already know this!
+pandas>=2.0.0                  # Already know this!
